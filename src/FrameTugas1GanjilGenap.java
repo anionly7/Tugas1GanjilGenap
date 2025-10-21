@@ -58,11 +58,6 @@ public class FrameTugas1GanjilGenap extends javax.swing.JFrame {
                 txtInputFocusGained(evt);
             }
         });
-        txtInput.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtInputActionPerformed(evt);
-            }
-        });
         txtInput.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyTyped(java.awt.event.KeyEvent evt) {
                 txtInputKeyTyped(evt);
@@ -226,10 +221,6 @@ public class FrameTugas1GanjilGenap extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void txtInputActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtInputActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtInputActionPerformed
 
     private void btnPrimaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPrimaActionPerformed
         try {
